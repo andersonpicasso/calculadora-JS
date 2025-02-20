@@ -1,0 +1,81 @@
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.resultado{
+    background-color: white;
+    width: 415px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    border: 2px solid black;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.linhas{
+    display: flex;
+    gap: 5px;
+}
+
+.botao-numeros{
+    width: 100px;
+    height: 50px;
+    background-color: #519EE8;
+    font-size: 20px;
+}
+
+.botao-operacao{
+    width: 100px;
+    height: 50px;
+    background-color: #51E89E;
+    font-size: 20px;
+}
+
+.botao-resetar{
+    width: 100px;
+    height: 50px;
+    background-color: #E81E1E;
+    font-size: 20px;
+}
+
+.botao-numeros:hover{
+    background-color: #51D0E8;
+}
+.botao-operacao:hover{
+    background-color: #43EB5B;
+}
+.botao-resetar:hover{
+    background-color: #E81E58;
+}
