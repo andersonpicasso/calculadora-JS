@@ -63,7 +63,21 @@
                     <button class="botao-numeros" id="0" onclick="lerId('0')">
                         0
                     </button>
-                    <button class="botao-numeros" id="igual" onclick="calcular()">
+                    <button class="botao-numeros" id="igual" onclick="lerId('(')">
+                        (
+                    </button>
+                    <button class="botao-numeros" id="igual" onclick="lerId(')')">
+                        )
+                    </button>
+
+                </div>
+
+                <div class="linhas">
+                    
+                    <button class="botao-resetar" id="apagar" onclick="apagar()">
+                        &#9003;
+                    </button>
+                    <button class="botao-resetar" id="igual" onclick="calcular()">
                         =
                     </button>
                     <button class="botao-resetar" id="resetar" onclick="resetar()">
@@ -85,6 +99,9 @@
                     </button>
                     <button class="botao-operacao" id="/" onclick="lerId('/')">
                         /
+                    </button>
+                    <button class="botao-operacao" id="/" onclick="lerId('**')">
+                        x²
                     </button>
                 
             </section>

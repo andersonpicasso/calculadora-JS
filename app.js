@@ -15,3 +15,7 @@ function calcular() {
         resultado.innerHTML = "Erro";
     }
 }
+
+function apagar() {
+     resultado.innerHTML =resultado.innerHTML.slice(0,-1);
+}
